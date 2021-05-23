@@ -1,0 +1,6 @@
+const utils = require('./https.js')
+const server = new utils.Website()
+server.connect(3000)
+server.createFilePage('/', '/views/index.html')
+server.createPage('/yo', 'slt')
+server.createFilePage('/index', '/views/index.html')
