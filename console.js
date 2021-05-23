@@ -1,4 +1,4 @@
-module.exports.console = class entree{
+module.exports = class entree{
     constructor(){
         this.console = 1
     }

@@ -15,7 +15,7 @@ class FilePage{
         })
     }
 }
-module.exports.Website = class server{
+module.exports = class server{
     constructor(){
         this.app = express()
     }

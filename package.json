@@ -15,8 +15,8 @@
     "simply"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/liam-gen/utils.js.git"
+    "type": "git",
+    "url": "https://github.com/liam-gen/utils.js.git"
   },
   "author": "liamgen",
   "license": "ISC",
