@@ -3,40 +3,30 @@ const ms = require('ms')
 months = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Décembre"]
 day = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
 date = new Date()
-function getDate(){
+module.exports = function getDate(){
     return date
 }
 
-function getYear(){
+module.exports = function getYear(){
     return date.getFullYear()
 }
 
-function getMonth(){
+module.exports = function getMonth(){
     return months[date.getMonth()]
 }
 
-function getHour(){
+module.exports = function getHour(){
     return date.getHours() + 2
 }
 
-function getMinutes(){
+module.exports = function getMinutes(){
     return date.getMinutes()
 }
 
-function getSeconds(){
+module.exports = function getSeconds(){
     return date.getSeconds()
 }
 
-function getDay(){
+module.exports = function getDay(){
     return day[date.getDay()]
-}
-
-module.exports.date = {
-    getDate,
-    getYear,
-    getMonth,
-    getHour,
-    getMinutes,
-    getSeconds,
-    getDay,
 }

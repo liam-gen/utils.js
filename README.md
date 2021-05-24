@@ -32,21 +32,6 @@ console.clear()
 console.sendError("Unne erreur s'est produite", '4', 'index.js')
 // Envoyer une erreur dans la console 1: message d'erreur. 2: ligne de l'erreur. 3: fichier
 
-// Date 
-console.imprimer(utils.date.getDate()) // Retourne la date
-
-/*
-
-Fonctions de la date:
-
-utils.date.getMonth()
-utils.date.getYear()
-utils.date.getHour()
-utils.date.getMinutes()
-utils.date.getSeconds()
-utils.date.getDay()
-
-*/
 ```
 
 [Github](https://github.com/liam-gen/utils.js)

@@ -1,7 +1,7 @@
 {
   "name": "@liamgen/utils.js",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.8",
+  "description": "Utils.js vous permettera de créer simplement des projets en JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,14 +16,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/liam-gen/utils.js.git"
+    "url": "git+https://github.com/liam-gen/utils.js.git"
   },
   "author": "liamgen",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^12.5.3",
     "express": "^4.17.1",
     "ms": "^2.1.3",
     "path": "^0.12.7"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/liam-gen/utils.js/issues"
+  },
+  "homepage": "https://github.com/liam-gen/utils.js#readme",
+  "devDependencies": {}
 }

@@ -9,9 +9,8 @@ class SimplyPage{
 }
 class FilePage{
     constructor(server, link, htmlFile){
-        server.set('views', './views')
         server.get(link, function (req, res){
-            res.sendFile(path.join(__dirname+htmlFile))
+            res.send(htmlFile)
         })
     }
 }
@@ -29,6 +28,8 @@ module.exports = class server{
         new SimplyPage(this.app, link, html)
     }
     createFilePage(link, fileHtml){
-        new FilePage(this.app, link, fileHtml)
+        const reader = new FileReader();
+        const read = reader.readAsText(fileHtml, 'UTF-8')
+        new FilePage(this.app, link, read)
     }
 }
